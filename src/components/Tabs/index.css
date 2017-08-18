@@ -1,0 +1,21 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.tabs button{
+  background-color: #61DAFB;
+  color: white;
+  border: 1px solid white;
+  padding: 1.2em;
+  flex: 1;
+}
+
+.tabs button:focus{
+  outline: 0;
+}
+
+.tabs button:hover {
+  background-color: #4390a5;
+}
